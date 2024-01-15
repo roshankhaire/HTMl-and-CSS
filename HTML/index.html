@@ -1,21 +1,140 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-  <style>
-     img {
-  float: right;
-}
-  </style>
-</head>
-<body>
-    <h2>Float Left</h2>
-    <p>In this example, the image will float to the left in the paragraph, and the text in the paragraph will wrap around the image.</p>
+<!DOCTYPE html> 
+<html>
+  <head>
+    <title>Flex Box</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+ 
+ 
 
-<p><img src="https://plus.unsplash.com/premium_photo-1673138824704-344104aec465?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bmF0dXJlJTIwaW1hZ2VzfGVufDB8fDB8fHww" alt="Pineapple" style="width:170px;height:170px;margin-right:15px;">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.</p>
-
-</body>
+    <header class="header">
+      <div class="container flex">
+        <a class="brand" href="#"> Proinsure </a>
+        <nav class="nav">
+          <a href="#"> Home </a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+          <a class="btn" href="#">View Plans</a>
+        </nav>
+     
+       
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <article class="container flex align-start">
+          <div class="col-1-2">
+            <div class="line"></div>
+            <h1 class="hero-heading">Humanazing Your Insurance</h1>
+            <p class="hero-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequatur explicabo temporibus alias magni distinctio sunt unde
+              architecto ipsum dicta, praesentium amet est dolore.
+            </p>
+            <a class="btn btn-secondary" href="#">View Plans</a>
+          </div>
+          <div class="col-1-2">
+            <img
+              class="hero-img img-100"
+              src="https://altcampus.github.io/proinsure/assets/media/01.png"
+              alt="Man with his child"
+            />
+          </div>
+        </article>
+      </section>
+       </section>
+      <!-- About -->
+      <section class="about padding">
+        <article class="container flex">
+          <div class="col-1-2">
+            <img
+              class="img-100"
+              src="https://altcampus.github.io/proinsure/assets/media/02.png"
+              alt="Man with kids in the field"
+            />
+          </div>
+          <div class="col-1-2">
+            <h2 class="heading">About the insure</h2>
+            <p class="text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Distinctio rem sequi, fuga laboriosam maiores voluptatum in
+              ducimus ipsum animi placeat labore!
+            </p>
+            <a class="btn" href="#">Know More</a>
+          </div>
+        </article>
+      </section>
+      <section class="feature ">
+        <div class="container">
+          <header>
+            <div class="line"></div>
+            <h2 class="heading">We are different</h2>
+          </header>
+          <div class="flex align-start">
+            <div class="col-1-3">
+              <div class="icon-box">
+                <i class="fas fa-cogs"></i>
+              </div>
+              <h3>Easy Process</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae
+                et provident commodi atque fugiat sequi ex unde dolores.
+              </p>
+            </div>
+            <div class="col-1-3">
+              <div class="icon-box">
+                <i class="fas fa-cogs"></i>
+              </div>
+              <h3>Affordable price</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae
+                et provident commodi atque fugiat sequi ex unde dolores.
+              </p>
+            </div>
+            <div class="col-1-3">
+              <div class="icon-box">
+                <i class="fas fa-cogs"></i>
+              </div>
+              <h3>You come first</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae
+                et provident commodi atque fugiat sequi ex unde dolores.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="cta">
+        <div class="container flex">
+          <h3>
+            Find out more <br />
+            about how we work
+          </h3>
+          <a class="btn btn-secondary" href="#">How we work</a>
+        </div>
+      </section>
+    </main>
+    
+    <footer class="footer">
+      <div class="container">
+        <div class="flex social">
+          <h2>Proinsure</h2>
+          <nav>
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+            <a href="#"><i class="fab fa-twitter-square"></i></a>
+          </nav>
+        </div>
+        <nav class="footer-nav">
+          <a href="#">Home</a>
+          <a href="#">About Us</a>
+          <a href="#">Contact Us</a>
+          <a href="#">How we work</a>
+        </nav>
+      </div>
+      <div class="copyright-info">
+        <small>&copy; AltCampus Services Pvt Ltd, 2018-present</small>
+      </div>
+    </footer>
+  </body>
 </html>
