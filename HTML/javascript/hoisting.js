@@ -13,4 +13,3 @@ var printName = (name) => {
 console.log(name)
 
 }
-

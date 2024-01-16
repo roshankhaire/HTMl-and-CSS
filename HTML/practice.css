@@ -1,15 +1,53 @@
-.flex-container{
-    display: flex;
-    background-color: DodgerBlue;
-    
-  align-items: baseline;
+.top{
+  background-color: yellow;
+  padding:5px
 }
-.flex-container > div {
-    background-color: #f1f1f1;
-    margin: 10px;
-    padding: 20px;
-    font-size: 30px;
-    width: 100px;
-    margin: 10px;
-    order:2;
-  }
+.header{
+  background-color: green;
+ padding:60px;
+ text-align: center;
+}
+.navbar{
+  display: flex;
+  background-color: black;
+ 
+}
+* {
+  box-sizing: border-box;
+}
+.navbar a{
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+@media screen  and (max-width: 700px){
+   .row ,.navbar{
+    flex-direction: column;
+   }
+}
