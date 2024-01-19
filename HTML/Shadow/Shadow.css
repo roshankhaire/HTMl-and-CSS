@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+    background-color: pink;
+    border:2px solid red;
+    transition: width 2s;
+}
+ span:hover{
+  
+    width: 200px;
+}
