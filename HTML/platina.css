@@ -1,0 +1,151 @@
+.default-header {
+    background-color: #fff;
+    padding: 20px 0;
+    width: 100% !important;
+    box-shadow: -21.213px 21.213px 30px 0px rgba(158, 158, 158, 0.3);
+  }
+  .container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+}
+
+
+@media (min-width: 576px){
+.container {
+    max-width: 540px;
+}
+}
+.header-wrap{
+    box-sizing:inherit
+
+}
+.align-items-center {
+    align-items: center !important;
+}
+.justify-content-between {
+    justify-content: space-between !important;
+}
+.d-flex {
+    display: flex !important;
+}
+.main-menubar {
+    position: relative;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+.d-flex {
+    display: flex !important;
+}
+@media  (max-width: 767px){
+nav.hide {
+    transform: scale(0);
+}
+}
+@media (max-width: 767px){
+nav {
+    margin-right: 0;
+    position: absolute;
+    right: 0;
+    top: 47px;
+    text-align: right;
+    padding: 20px 0;
+    z-index: 5;
+    background: #fff;}
+}
+@media (max-width: 767px){
+.menu-bar {
+    /* cursor: pointer; */
+    display: inline-block;
+}
+}
+.menu-bar {
+    cursor: pointer;
+    display: none;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+.menu-bar span {
+    color: #000;
+    font-size: 24px;
+}
+.lnr {
+    font-family: 'Linearicons-Free';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+.menu-bar {
+    cursor: pointer;
+    display: none;
+}
+
+element.style {
+}
+.menu-bar span {
+    color: #000;
+    font-size: 24px;
+}
+.lnr {
+    font-family: 'Linearicons-Free';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+.menu-bar {
+    cursor: pointer;
+    display: none;
+}
+body {
+    color: #777777;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+    position: relative;
+}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+}
+html {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: transparent;
+}
+.lnr-menu:before {
+    content: "\e871";
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}

@@ -1,47 +1,11 @@
-body{
-    background-color:yellowgreen
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 1s;
 }
-.container{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 30px;
-   height: 700px;
+@keyframes example{
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
 }
-.first{
-      background-color: white;
-    border-radius: 25px ;
-    width:300px;
-  
-}
-.second{
-    background-color: white;
-  border-radius: 25px ;
-  width:300px
-}
-.third{
-    background-color: white;
-  border-radius: 25px ;
-  width:300px
-}
-h1{
-    text-align: center;
-}
-p{
-    text-align: center;
-}
-hr{
-    background-color:yellowgreen;
-   border: 3px solid yellowgreen;
-}
-img{
-    text-align: center;
-    padding-left: 125px;
-}
-.price{
-    display: flex;
-    justify-content: space-around;
-}
-.order{
-    text-align: center;
-}
-
